@@ -1,17 +1,10 @@
-# 当ファイルは、workflowファイルを指す
-# これは、Github Actionsの動作を指定する
-
-# 1.名前
 name: "Hello World"
 
-# 2.トリガ
 on: [push]
 
-# 3.動作内容
 jobs:
   sample:
     name: Hello World job
     runs-on: ubuntu-latest
     steps:
       - run: echo "Hello World !"
-
