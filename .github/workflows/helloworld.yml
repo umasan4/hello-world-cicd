@@ -5,6 +5,6 @@ on: [push]
 jobs:
   sample:
     name: Hello world job
-    runs-on: ubuntu-leatest
+    runs-on: ubuntu-latest
     steps:
       - run: echo "Hello world !"
